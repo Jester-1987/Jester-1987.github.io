@@ -37,14 +37,14 @@ ul {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-code {
-  color: #555568;
+a {
+  color: #6f6f89;
 }
 .box {
   width: 1000px;
   height: auto;
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 25% 75%;
   gap: 10px;
   outline: 1px solid #555568;
   margin-top: 10px;
@@ -52,10 +52,24 @@ code {
   padding: 10px;
   border-radius: 2px
 }
+.box a {
+  grid-column: 2;
+}
 .box ul {
   list-style-type: none;
   padding: 0;
 }
 .box b {
   grid-column: 1;
+}
+.text-column {
+  grid-column: 2;
+}
+.text-column p,
+.text-column a {
+  margin: 0; /* Remove default margin for better alignment */
+  line-height: 1.5; /* Adjust line height for better readability */
+}
+.text-column a {
+  color: #6f6f89;
 }
