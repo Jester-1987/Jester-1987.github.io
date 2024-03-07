@@ -1,0 +1,15 @@
+/* !!!this is all placeholder adjust and add code as needed!!! */
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;  
+}
+body {
+  width: 100%;
+  background: #444;
+  color: #fff;
+  padding: 100px;font-family: 
+  Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
